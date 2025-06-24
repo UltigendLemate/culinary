@@ -58,6 +58,12 @@ const Sponsors = () => {
       "mini": "IBCA is one of the topmost learning centre in the capital of India as an impeccable platform to nurture future professionals in this artistic field of Bakery and Culinary Arts.",
       "text": "IBCA has become an excellent platform for newbies to learn and master the field of Bakery and Culinary Arts in their sophisticated courses. All courses have a standard curriculum to give students guidance in various methods, processes, preparations, and building recipes from scratch. We turn newcomers with little or no experience in Bakery and Culinary Arts into dedicated professionals ready to compete in the demanding world of building their careers. IBCA offers them all the resources they need to advance their amateur careers while receiving professional guidance. Over the years, IBCA has earned one of the top names as bakery institute in Delhi & culinary institute in Delhi. Last few years, people have joined our bakery classes in India from different parts of the world and states of India, establishing us as a prestigious bakery & Culinary Institute in India. All these joinings happened based on our student performance on the International level and our placement records across the world."
     },
+    {
+      "img": "/sponsors/monin.png",
+      "link": "https://monin.in/",
+      "mini": "With a legacy of over 100 years, Monin is a global leader in premium syrups, fruit mixes, sauces, and beverage solutions. In India, Monin inspires creativity behind the bar and in the kitchen",
+      "text": "With a legacy of over 100 years, Monin is a global leader in premium syrups, fruit mixes, sauces, and beverage solutions. In India, Monin inspires creativity behind the bar and in the kitchen, empowering chefs and mixologists with world-class flavors. We are proud to support platforms that nurture young culinary talent and celebrate innovation."
+    }
   ]
   return (
     <div
