@@ -120,9 +120,9 @@ const teams: Team[] = [
         text: "Priya Verma is a celebrated home baker and dessert innovator from New Delhi, with over a decade of experience turning passion into mastery. From winning Pacific Mall Star Chef Season 1 to being honored as a 'Chocolate Master Artist' by Chef Philippe Agnese at IBCA, her journey has been marked by technical finesse and artistic flair. She has collaborated with brands like Amul, Asahi Kasei, Catch Spices, and Galaxy Basmati Rice, and earned accolades in competitions such as Cornitos Masterchef, CTU Super Chef, and Noida Super Chef. A frequent face on culinary shows, her work has been praised by MasterChef icons and TV celebrities alike. At the Agropure Culinary League, Priya brings a legacy of excellence rooted in innovation and grace.",
       },
       participant2: {
-        name: "Ritika Garg Bansal",
-        img: "/pp/Ritika Garg.png",
-        text: "A rising culinary star from Kurukshetra, Ritika Garg Bansal brings a track record of excellence, creativity, and media recognition. With 10+ major competition accolades - including 1st Runner-Up at Kitchen Ka Dangal (Noida), Best Chocolate Artist by Chef Kavita Singh, and SHEROES Award by Radio City - she stands out for her flair in both presentation and flavor. Ritika reached the third audition round of MasterChef India and has been repeatedly praised by Chef Ranveer Brar. Her digital journey includes brand collaborations with Tropolite, Galaxy Basmati Rice, and a thriving YouTube channel with 10K+ subscribers. She's not just competing - she's building a legacy of innovation and visibility in homegrown Indian cuisine.",
+        name: "Bhawna Verma",
+        img: "/pp/bhawnaverma.png",
+        text: "A culinary educator, content creator, and champion of women empowerment, Bhawna Verma brings the soul of Rajasthan to modern Indian kitchens. Based in Ghaziabad, she is known for her mastery of authentic Rajasthani cuisine and regional fusion recipes. Bhawna has been featured in Better Kitchen magazine, represented in culinary columns, and reached the Mumbai round of MasterChef India. Her collaborations span celebrated chefs like Harpal Singh Sokhi and Kunal Kapur, with impactful events alongside Nestlé India, IBCA, and LOTS Wholesale. Beyond the kitchen, she leads an NGO empowering women through food entrepreneurship—proving that great cooking can also build communities. At the Culinary League, Bhawna brings not just taste—but transformation.",
       },
     },
   ];
