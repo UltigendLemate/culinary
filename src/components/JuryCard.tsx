@@ -5,28 +5,29 @@ type Props = {
   name: string;
   img: string;
   text: string;
+  class?: string;
 };
 
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
+// import {
+//   Dialog,
+//   DialogContent,
+//   DialogDescription,
+//   DialogHeader,
+//   DialogTitle,
+//   DialogTrigger,
+// } from "@/components/ui/dialog";
 
 const JuryCard = (props: Props) => {
   return (
-    <div className="md:flex w-full shadow-md gap-5 justify-center items-center shadow-primary/10">
+    <div className={`md:flex w-full shadow-md gap-5 justify-center items-center shadow-primary/10 ${props.class}`}>
       <div className="from-primary to-white md:w-[40%] bg-gradient-to-b rounded-xl">
         <img src={props.img} className="w-full h-full object-cover" alt="" />
       </div>
 
       <div className="md:w-[60%] p-5 md:p-0">
         <h2 className="text-xl font-bold mb-2">{props.name}</h2>
-        <p className="text-sm line-clamp-3">{props.text}</p>
-        <Dialog>
+        <p className="">{props.text}</p>
+        {/* <Dialog>
           <DialogTrigger>
             <p className="text-sm cursor-pointer underline">
               Know More
@@ -42,7 +43,7 @@ const JuryCard = (props: Props) => {
               dangerouslySetInnerHTML={{ __html: props.text }}
             ></p>
           </DialogContent>
-        </Dialog>
+        </Dialog> */}
       </div>
     </div>
   );

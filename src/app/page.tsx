@@ -17,7 +17,7 @@ export default function Home() {
         <Organizers />
       </main>
       <Challenge />
-      {/* <Jury /> */}
+      <Jury />
       <Participants />
       <Sponsors />
       <Contact />
