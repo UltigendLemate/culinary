@@ -63,6 +63,15 @@ const Sponsors = () => {
       "link": "https://monin.in/",
       "mini": "With a legacy of over 100 years, Monin is a global leader in premium syrups, fruit mixes, sauces, and beverage solutions. In India, Monin inspires creativity behind the bar and in the kitchen",
       "text": "With a legacy of over 100 years, Monin is a global leader in premium syrups, fruit mixes, sauces, and beverage solutions. In India, Monin inspires creativity behind the bar and in the kitchen, empowering chefs and mixologists with world-class flavors. We are proud to support platforms that nurture young culinary talent and celebrate innovation."
+    },
+    {
+      "img": "/sponsors/lots.png",
+      "mini": "With 30+ years of B2B experience in Thailand, LOTS Wholesale Solutions entered India to meet the evolving needs of its business customers, offering 4000+ products in Delhi NCR at wholesale prices.",
+      "text": "With 30+ years of B2B experience in Thailand, LOTS Wholesale Solutions entered India to meet the evolving needs of its business customers, offering 4000+ products in Delhi NCR at wholesale prices. We cater to HoReCa and other businesses with fresh produce, frozen food, bakery ingredients, dairy, kitchenware, office supplies, and more.",
+      "appLinks": {
+        "android": "https://play.google.com/store/apps/details?id=com.ocsindiareactnative",
+        "ios": "https://apps.apple.com/in/app/lots-wholesale-b2b-shopping/id1532881194"
+      }
     }
   ]
   return (
