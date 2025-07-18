@@ -7,6 +7,7 @@ const Sponsors = () => {
     {
       "img": "/agropure.png",
       "link": "https://agropure.net/",
+      "mini" : "Agropure (GPA Capital Foods Pvt. Ltd.) is a trusted leader in India’s food staples sector, renowned for its superior-quality besan. Made from 100% pure chana dal and processed with precision.",
       "text": "Agropure (GPA Capital Foods Pvt. Ltd.) is a trusted leader in India’s food staples sector, renowned for its superior-quality besan. Made from 100% pure chana dal and processed with precision, Agropure Besan is prized for its fine texture, freshness, and performance in both traditional and contemporary kitchens. With a legacy spanning 50+ years and a diverse product range including dals, maida, sooji, dalia, and premium rice, Agropure serves millions across households and commercial food businesses. Its 800 MT daily milling capacity reflects both scale and consistency. MD & Chairman Shri Ghanshyam Dass Goyal received the Dal Udyog Shree Award at the 2025 Pulses Conclave - a testament to the company’s impact and commitment to quality. As a proud supporter of the Battle of Besan at the Culinary League, Agropure aims to spotlight the versatility of besan and inspire chefs to reimagine its potential in modern Indian cuisine."
     },
     // {
