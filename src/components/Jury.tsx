@@ -4,11 +4,13 @@ import JuryCard from './JuryCard'
 
 const Jury = () => {
   const jury = [
+    
     {
       "name": "Chef Shailendra Singh",
       "img": "/judges/1.png",
       "text": "Chef Shailendra Singh brings a visionary approach to Indian hospitality, with a legacy built across global kitchens and luxury hotel chains. From pioneering regional cuisine at Sheraton and Hyatt to leading high-impact culinary transformations at Pride Hotels, he merges tradition with trend. Currently serving as Corporate Chef at Pride Hotels, his expertise spans large-scale pre-openings, concept creation, and team mentorship. He’s judged prestigious competitions like ICF, THSC, and IFCA, and is widely recognized for shaping India’s culinary narrative. A frequent guest speaker and media contributor, Chef Shailendra’s accolades include “Corporate Chef – Hotels” 2025 and leadership roles in award-winning dining ventures across continents."
     },
+  
 
     {
       "name": "Chef Virender S. Datta (Chief Jury)",
@@ -25,7 +27,13 @@ const Jury = () => {
       "name": "Chef Anuraag Narsingani",
       "img": "/judges/3.png",
       "text": "Chef Anuraag Narsingani, Director of Culinary at JW Marriott New Delhi Aerocity, brings over two decades of experience across The Oberoi Group, Carnival Cruise Liner, and Encalm Hospitality. An IHM Mumbai alumnus and ‘Chef of the Year’ (BW Hotelier 2020, Hotelier India 2019), he blends global inspiration with ethical, sustainable practices. At JW Marriott, he’s redefining luxury dining through innovative menus, strategic marketing, and a deep connection with guests and teams. His leadership ensures exceptional food, flawless kitchen operations, and an elevated gastronomic experience that sets new industry benchmarks."
-    }
+    },
+    {
+      "name": "Balendra Singh",
+      "img": "/judges/judge1.png",
+      "class": "flex-row-reverse",
+      "text" : "Dr. Balendra Singh is director at Institute of Bakery &amp; Culinary Arts New Delhi. He established the institute to offer education based on his experience in hospitality industry as one of the leading pastry chef for aspiring professionals interested to make career in Bakery &amp; Pastry. He has a flair for innovation with expertise in international pastry cuisine. He studied at The IHM Dehradun with a focus on bakery and confectionery. Later he garnered over 20 years of experience at major hotels like Umaid Bhawan Palace Jodhpur, Grand Hyatt New Delhi, Westin Gurgaon, JW Marriott New Delhi, Pullman, Novotel New Delhi, The Taj Mahal New Delhi &amp; cruise ships around the world, where he honed his skills to international level. <br> He gained wide knowledge in casual &amp; fine dining, a-la-carte, buffet &amp; banquet and pastry verticals of foodservice industry. As a culinary educator, he focus on skill based education ensuring students a good career."
+    },
   ]
 
 
