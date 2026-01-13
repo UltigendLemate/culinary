@@ -8,7 +8,7 @@ const Jury = () => {
     {
       "name": "Chef Shailendra Singh",
       "img": "/judges/1.png",
-      "text": "Chef Shailendra Singh brings a visionary approach to Indian hospitality, with a legacy built across global kitchens and luxury hotel chains. From pioneering regional cuisine at Sheraton and Hyatt to leading high-impact culinary transformations at Pride Hotels, he merges tradition with trend. Currently serving as Corporate Chef at Pride Hotels, his expertise spans large-scale pre-openings, concept creation, and team mentorship. He’s judged prestigious competitions like ICF, THSC, and IFCA, and is widely recognized for shaping India’s culinary narrative. A frequent guest speaker and media contributor, Chef Shailendra’s accolades include “Corporate Chef – Hotels” 2025 and leadership roles in award-winning dining ventures across continents."
+      "text": "Chef Shailendra Singh brings a visionary approach to Indian hospitality, with a legacy built across global kitchens and luxury hotel chains. From pioneering regional cuisine at Sheraton and Hyatt to leading high-impact culinary transformations at Pride Hotels, he merges tradition with trend. Currently serving as Corporate Chef at Pride Hotels, his expertise spans large-scale pre-openings, concept creation, and team mentorship. He’s judged prestigious competitions like ICF, THSC, and IFCA, and is widely recognized for shaping India’s culinary narrative. A frequent guest speaker and media contributor, Chef Shailendra’s accolades include “Corporate Chef – Hotels” 2026 and leadership roles in award-winning dining ventures across continents."
     },
   
 

@@ -23,7 +23,7 @@ const Challenge = () => {
             </h2>
             <p className="mt-4 text-lg">
               Do you have a passion for flavor and innovation? The AgroPure
-              Culinary League at IHE Expo 2025 offers home chefs a unique
+              Culinary League at IHE Expo 2026 offers home chefs a unique
               chance to showcase their skills.
             </p>
             <p className="mt-2">
@@ -68,11 +68,12 @@ const Challenge = () => {
             </TabsContent>
             <TabsContent value="rules" className="bg-foreground text-background p-8 rounded-2xl shadow-2xl">
                 <h3 className="text-3xl font-bold text-primary mb-4">Rules & Regulations</h3>
-                <p className="mt-4 text-lg">Checkout <a href="https://drive.google.com/drive/folders/1c2E6y5i5EraRXJd49rqCOeBggCXdMzYZ" target="_blank" rel="noopener noreferrer" className="text-amber-400 underline hover:text-amber-300">here</a> for the rules and regulations.</p>
+                {/* <p className="mt-4 text-lg">Checkout <a href="https://drive.google.com/drive/folders/1c2E6y5i5EraRXJd49rqCOeBggCXdMzYZ" target="_blank" rel="noopener noreferrer" className="text-amber-400 underline hover:text-amber-300">here</a> for the rules and regulations.</p> */}
+                <p className="mt-4 text-lg">To be updated soon.</p>
             </TabsContent>
             <TabsContent value="setup" className="bg-foreground text-background p-8 rounded-2xl shadow-2xl">
                 <h3 className="text-3xl font-bold text-primary mb-4">The Arena</h3>
-                <p className="text-lg leading-relaxed">The competition will feature 8 live cooking stations, properly partitioned, set within a large exhibition hall at the IHE Expo 2025. This setup ensures a professional and exciting environment for a live competition.</p>
+                <p className="text-lg leading-relaxed">The competition will feature 8 live cooking stations, properly partitioned, set within a large exhibition hall at the IHE Expo 2026. This setup ensures a professional and exciting environment for a live competition.</p>
                 <p className="mt-4 text-lg">Visit <a href="https://www.ihexpo.com" target="_blank" rel="noopener noreferrer" className="text-amber-400 underline hover:text-amber-300">www.ihexpo.com</a> for more details on the venue.</p>
             </TabsContent>
             <TabsContent value="schedule" className="bg-foreground text-background p-8 rounded-2xl shadow-2xl">

@@ -11,7 +11,7 @@ const PressMedia = () => {
                         Press & Media Center
                     </h2>
                     <p className='text-xl text-gray-600 mx-auto'>
-                        For all media inquiries, interviews, and press releases related to Junior Pastry Indian Cup 2025
+                        For all media inquiries, interviews, and press releases related to Junior Pastry Indian Cup 2026
                     </p>
                 </div>
 
@@ -36,13 +36,13 @@ const PressMedia = () => {
                                 </div>
 
                                 <div className='text-sm text-gray-600 font-medium mb-4'>
-                                    Official PR Partner for Junior Pastry Indian Cup 2025
+                                    Official PR Partner for Junior Pastry Indian Cup 2026
                                 </div>
                             </div>
 
                             <div className='text-gray-700'>
                                 <p className='mb-4'>
-                                    All media coverage, press releases, and journalist inquiries for Junior Pastry Indian Cup 2025
+                                    All media coverage, press releases, and journalist inquiries for Junior Pastry Indian Cup 2026
                                     are handled exclusively by our official PR partner, Ashwini Publicity.
                                 </p>
                             </div>

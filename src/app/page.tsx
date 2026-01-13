@@ -18,11 +18,11 @@ export default function Home() {
         <Organizers />
       </main>
       <Challenge />
-      <Jury />
-      <Participants />
-      <Sponsors />
+      {/* <Jury /> */}
+      {/* <Participants /> */}
+      {/* <Sponsors /> */}
       <Contact />
-      <PressMedia />
+      {/* <PressMedia /> */}
     </>
   );
 }

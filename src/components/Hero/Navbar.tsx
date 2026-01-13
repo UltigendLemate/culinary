@@ -19,7 +19,7 @@ const Navbar = () => {
         <DialogContent className="max-h-[60vh] overflow-y-scroll app-scrollbar">
           <DialogHeader>
             <DialogTitle>
-              The Objectives of Culinary League 2025 for Home Bakers :
+              The Objectives of Culinary League 2026 for Home Bakers :
             </DialogTitle>
           </DialogHeader>
           <ul className="list-inside list-disc">

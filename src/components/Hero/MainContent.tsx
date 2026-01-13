@@ -31,8 +31,8 @@ const MainContent = () => {
           />
           <span className="text-base my-1 font-semibold">Presents</span>
         </div>
-        <h1 className="heading md:text-6xl text-4xl ">Culinary League 2025</h1>
-        <h4 className="font-bold  mt-2">6th August 2025</h4>
+        <h1 className="heading md:text-6xl text-4xl ">Culinary League 2026</h1>
+        <h4 className="font-bold  mt-2">8th August 2026</h4>
         <h4 className="">India Expo Centre & Mart, Greater Noida, NCR</h4>
         {/* <div className="text-lg mt-5 font-semibold">
               Powered By <img src="dkg.jpg" className="h-10 w-auto inline ml-3" alt="" />
