@@ -68,8 +68,7 @@ const Challenge = () => {
             </TabsContent>
             <TabsContent value="rules" className="bg-foreground text-background p-8 rounded-2xl shadow-2xl">
                 <h3 className="text-3xl font-bold text-primary mb-4">Rules & Regulations</h3>
-                {/* <p className="mt-4 text-lg">Checkout <a href="https://drive.google.com/drive/folders/1c2E6y5i5EraRXJd49rqCOeBggCXdMzYZ" target="_blank" rel="noopener noreferrer" className="text-amber-400 underline hover:text-amber-300">here</a> for the rules and regulations.</p> */}
-                <p className="mt-4 text-lg">To be updated soon.</p>
+                <p className="mt-4 text-lg">Check rules and regulations <a href="https://drive.google.com/drive/folders/1sZMgkFVJoKAls7hwnxPW7e4E6P8jKV1N?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-amber-400 underline hover:text-amber-300">here</a>.</p>
             </TabsContent>
             <TabsContent value="setup" className="bg-foreground text-background p-8 rounded-2xl shadow-2xl">
                 <h3 className="text-3xl font-bold text-primary mb-4">The Arena</h3>

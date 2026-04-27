@@ -21,7 +21,7 @@ const MainContent = () => {
           width={400}
           height={200}
         /> */}
-        {/* <p className="text-xl text-primary font-medium -mt-6">Second Edition</p> */}
+        <p className="text-xl text-primary font-medium -mt-6">Second Edition</p>
       </div>
       <div className="text-center md:text-2xl md:-mt-5">
         <div className="text-center">
@@ -34,9 +34,14 @@ const MainContent = () => {
         <h1 className="heading md:text-6xl text-4xl ">Culinary League 2026</h1>
         <h4 className="font-bold  mt-2">8th August 2026</h4>
         <h4 className="">India Expo Centre & Mart, Greater Noida, NCR</h4>
-        {/* <div className="text-lg mt-5 font-semibold">
-              Powered By <img src="dkg.jpg" className="h-10 w-auto inline ml-3" alt="" />
-            </div> */}
+        <a
+          href="https://drive.google.com/drive/folders/1sZMgkFVJoKAls7hwnxPW7e4E6P8jKV1N?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-6 px-8 py-3 bg-amber-500 hover:bg-amber-600 text-white font-bold text-lg rounded-full shadow-lg transition-colors duration-200"
+        >
+          Register Now
+        </a>
       </div>
     </div>
   );
