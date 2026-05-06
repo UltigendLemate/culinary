@@ -34,14 +34,24 @@ const MainContent = () => {
         <h1 className="heading md:text-6xl text-4xl ">Culinary League 2026</h1>
         <h4 className="font-bold  mt-2">8th August 2026</h4>
         <h4 className="">India Expo Centre & Mart, Greater Noida, NCR</h4>
-        <a
-          href="https://drive.google.com/drive/folders/1sZMgkFVJoKAls7hwnxPW7e4E6P8jKV1N?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block mt-6 px-8 py-3 bg-amber-500 hover:bg-amber-600 text-white font-bold text-lg rounded-full shadow-lg transition-colors duration-200"
-        >
-          Register Now
-        </a>
+        <div className="flex flex-wrap gap-3 justify-center mt-6">
+          <a
+            href="https://drive.google.com/drive/folders/1sZMgkFVJoKAls7hwnxPW7e4E6P8jKV1N?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-3 bg-amber-500 hover:bg-amber-600 text-white font-bold text-lg rounded-full shadow-lg transition-colors duration-200"
+          >
+            Register Now
+          </a>
+          <a
+            href="https://drive.google.com/drive/folders/1ylvwynP43m-ioL9Suy9m4aXHPLJ1CeIF?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-3 bg-white hover:bg-gray-100 text-amber-600 font-bold text-lg rounded-full shadow-lg border-2 border-amber-500 transition-colors duration-200"
+          >
+            Gallery
+          </a>
+        </div>
       </div>
     </div>
   );
