@@ -6,6 +6,7 @@ import Navbar from "@/components/Hero/Navbar";
 import Organizers from "@/components/Hero/Organizers";
 import Jury from "@/components/Jury";
 import Participants from "@/components/Participants";
+import PastParticipants from "@/components/PastParticipants";
 import PressMedia from "@/components/PressMedia";
 import Sponsors from "@/components/Sponsors";
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Challenge />
       {/* <Jury /> */}
       {/* <Participants /> */}
+      <PastParticipants />
       {/* <Sponsors /> */}
       <Contact />
       {/* <PressMedia /> */}
