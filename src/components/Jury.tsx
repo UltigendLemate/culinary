@@ -34,6 +34,11 @@ const Jury = () => {
       "class": "flex-row-reverse",
       "text" : "Dr. Balendra Singh is director at Institute of Bakery &amp; Culinary Arts New Delhi. He established the institute to offer education based on his experience in hospitality industry as one of the leading pastry chef for aspiring professionals interested to make career in Bakery &amp; Pastry. He has a flair for innovation with expertise in international pastry cuisine. He studied at The IHM Dehradun with a focus on bakery and confectionery. Later he garnered over 20 years of experience at major hotels like Umaid Bhawan Palace Jodhpur, Grand Hyatt New Delhi, Westin Gurgaon, JW Marriott New Delhi, Pullman, Novotel New Delhi, The Taj Mahal New Delhi &amp; cruise ships around the world, where he honed his skills to international level. <br> He gained wide knowledge in casual &amp; fine dining, a-la-carte, buffet &amp; banquet and pastry verticals of foodservice industry. As a culinary educator, he focus on skill based education ensuring students a good career."
     },
+    {
+      "name": "Chef Nishant Choubey",
+      "img": "/judges/nishant-choubey.jpg",
+      "text": "Chef Nishant Choubey is an award-winning chef, consultant and advocate of sustainable gastronomy with over two decades of culinary experience. Honoured as Independent Chef of the Year 2024, he has worked with Oberoi, Madinat Jumeirah Dubai, Roseate Hotels and Olive Bar and Kitchen. Co-founder of Street Storyss, he has consulted globally and champions regional cuisines, Ayurveda-inspired cooking and farm-to-fork concepts."
+    },
   ]
 
 

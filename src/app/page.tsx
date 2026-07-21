@@ -19,8 +19,8 @@ export default function Home() {
         <Organizers />
       </main>
       <Challenge />
-      {/* <Jury /> */}
-      {/* <Participants /> */}
+      <Jury />
+      <Participants />
       <PastParticipants />
       {/* <Sponsors /> */}
       <Contact />

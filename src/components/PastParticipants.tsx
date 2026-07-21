@@ -64,12 +64,12 @@ const teams: Team[] = [
       id: 4,
       participant1: {
         name: "Teena Sharma",
-        img: "/pp/Teena Sharma.png",
+        img: "/pp/Teena Sharma-white.jpg",
         text: "From the labs of Britannia to the heart of home kitchens, Ghaziabad-based Teena Sharma brings over two decades of precision, experimentation, and passion to the Culinary League. A seasoned quality control chemist turned celebrated home chef, Teena has mastered non-veg delicacies like biryanis and drums of heaven, alongside exotic sweets such as kaju paan and pina colada modaks. Her journey spans experience with Britannia, Dabur, and Rohini Flour Mills, now culminating in her venture BakehouseTeena's. While successfully running a math coaching center for 26 years, she's carved time to cook, teach, and serve a loyal clientele. A finalist in Chef of Delhi and a jury member in India Ka Homechef, Teena fuses science, tradition, and joy into every dish she plates.",
       },
       participant2: {
         name: "Radhika Goel",
-        img: "/pp/Radhika Goel.png",
+        img: "/pp/Radhika Goel-white.jpg",
         text: "Young, bold, and endlessly creative - Ghaziabad's Radhika Goel is redefining Indian vegetarian cuisine. Founder of Radhika Kitchen Snaps on YouTube, she started baking at 14 and launched her own cloud kitchen by 18. With a flair for fusing tradition and innovation, Radhika transforms classics like egg curry, dahi bhalla, and lamb chops into stunning vegetarian and vegan reinterpretations. Her accolades include 1st Place at Zaika Chef's Competition and the Bhartiyan Master Kitchener Award 2026. A finalist in India Ka Homechef 2.0, she teaches, films, and creates with one mission - prove that plant-based food can be daring, delicious, and unforgettable.",
       },
     },
@@ -127,47 +127,33 @@ const teams: Team[] = [
     },
   ];
 
-const ParticipantInfo = ({ participant }: { participant: Participant }) => {
+const ParticipantChip = ({ participant }: { participant: Participant }) => {
   return (
-    <div className="relative aspect-square overflow-hidden shadow-lg">
-      <img
-        src={participant.img}
-        className="w-full h-full object-cover bg-gradient-to-b from-primary to-background"
-        alt={participant.name}
-      />
-      <div className="absolute bottom-4 left-4 right-4 flex justify-between items-center">
-        <div className="bg-primary text-primary-foreground px-3 py-1 rounded-lg">
-          <p className="text-xs font-semibold">{participant.name}</p>
-        </div>
-        <Dialog>
-          <DialogTrigger asChild>
-            <button className="bg-black text-white px-4 py-2 rounded-lg text-xs">
-              Know More
-            </button>
-          </DialogTrigger>
-          <DialogContent className="max-h-96 max-w-screen-lg overflow-auto app-scrollbar">
-            <DialogHeader>
-              <DialogTitle className="text-2xl">
-                {participant.name}
-              </DialogTitle>
-            </DialogHeader>
-            <p
-              className="xl:text-sm 2xl:text-lg"
-              dangerouslySetInnerHTML={{ __html: participant.text }}
-            ></p>
-          </DialogContent>
-        </Dialog>
-      </div>
-    </div>
-  );
-};
-
-const TeamCard = ({ team }: { team: Team }) => {
-  return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 rounded-2xl">
-      <ParticipantInfo participant={team.participant1} />
-      <ParticipantInfo participant={team.participant2} />
-    </div>
+    <Dialog>
+      <DialogTrigger asChild>
+        <button className="group flex flex-col items-center gap-2 w-20 sm:w-24">
+          <div className="relative h-16 w-16 sm:h-20 sm:w-20 overflow-hidden rounded-full ring-2 ring-transparent group-hover:ring-primary transition-all shadow-md bg-white">
+            <img
+              src={participant.img}
+              className="h-full w-full object-cover object-top bg-white"
+              alt={participant.name}
+            />
+          </div>
+          <p className="text-[11px] sm:text-xs font-medium text-center leading-tight line-clamp-2">
+            {participant.name}
+          </p>
+        </button>
+      </DialogTrigger>
+      <DialogContent className="max-h-96 max-w-screen-lg overflow-auto app-scrollbar">
+        <DialogHeader>
+          <DialogTitle className="text-2xl">{participant.name}</DialogTitle>
+        </DialogHeader>
+        <p
+          className="xl:text-sm 2xl:text-lg"
+          dangerouslySetInnerHTML={{ __html: participant.text }}
+        ></p>
+      </DialogContent>
+    </Dialog>
   );
 };
 
@@ -177,14 +163,17 @@ const PastParticipants = () => {
       <h2 className="z-20 mx-auto text-5xl md:text-7xl mb-4 mt-10 text-center heading ">
         Past Participants
       </h2>
-      <p className="mx-auto max-w-2xl px-6 text-center text-muted-foreground md:text-lg">
+      <p className="mx-auto max-w-2xl px-6 text-center text-muted-foreground text-sm md:text-base">
         The talented home chefs who took on the Battle of Besan in our first
-        edition.
+        edition. Tap a face for their story.
       </p>
 
-      <div className="md:mx-24 mx-10 mt-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <div className="md:mx-24 mx-6 mt-8 flex flex-wrap justify-center gap-x-4 gap-y-5 sm:gap-x-6">
         {teams.map((team) => (
-          <TeamCard key={team.id} team={team} />
+          <React.Fragment key={team.id}>
+            <ParticipantChip participant={team.participant1} />
+            <ParticipantChip participant={team.participant2} />
+          </React.Fragment>
         ))}
       </div>
     </div>
