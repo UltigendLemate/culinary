@@ -56,7 +56,7 @@ const teams: Team[] = [
       },
       participant2: {
         name: "Teena",
-        img: "/pp/Teena Sharma-white.jpg",
+        img: "/pp/Teena Sharma.png",
         text: "Teena is a passionate home chef and baker behind Teena's Bakehouse, with a culinary journey shaped by baking, food production and years of experimentation. She has worked with Britannia, Rohini Flour Mills and Dabur franchises, and specializes in non-vegetarian cuisine, exotic sweets, cakes and festive creations. She has also been a finalist in Chef of Delhi Season 2.",
       },
     },
@@ -84,6 +84,19 @@ const teams: Team[] = [
         name: "Sapna Jain",
         img: "/pp/Sapna Jain.jpg",
         text: "Sapna Jain is a dedicated homemaker with a strong passion for cooking, baking and learning new culinary skills. Experienced in vegetarian meal planning, kitchen management, food presentation and household organization, she creates nutritious and creative dishes for family occasions. Her strengths include recipe development, time management, hygiene standards, event planning and experimenting with new cooking techniques.",
+      },
+    },
+    {
+      id: 6,
+      participant1: {
+        name: "Deepti Gupta",
+        img: "/pp/Deepti Gupta.jpg",
+        text: "Deepti Gupta is a culinary enthusiast and entrepreneur from New Delhi, focused on preserving traditional Rajasthani cuisine and Indian regional cooking. Founder of a trousseau packing business and creator of the Instagram page @Spicyinherito, she specializes in heritage recipes, authentic spice blending, plating and recipe innovation. Her achievements include competition honours at Ecole Ducasse ISH, Better Kitchen, Cornitoz and BMK Awards.",
+      },
+      participant2: {
+        name: "Archana Goel",
+        img: "/pp/Archana Goel.png",
+        text: "Archana Goel is an award-winning home baker, recipe developer, food content creator and culinary educator. Since beginning her culinary journey in 2020, she has built expertise in cakes, chocolates, cookies, bakery products, Indian cuisine, fusion recipes and handcrafted gift hampers. A State Winner of Malika-e-Rasoi, IBCA Chocolatier Award recipient and two-time BMK Award winner, she conducts live cooking sessions with Amul India and Amul Punjab.",
       },
     },
   ];
