@@ -99,6 +99,19 @@ const teams: Team[] = [
         text: "Archana Goel is an award-winning home baker, recipe developer, food content creator and culinary educator. Since beginning her culinary journey in 2020, she has built expertise in cakes, chocolates, cookies, bakery products, Indian cuisine, fusion recipes and handcrafted gift hampers. A State Winner of Malika-e-Rasoi, IBCA Chocolatier Award recipient and two-time BMK Award winner, she conducts live cooking sessions with Amul India and Amul Punjab.",
       },
     },
+    {
+      id: 7,
+      participant1: {
+        name: "Divyanshi Chaudhary",
+        img: "/pp/Divyanshi Chaudhary.jpg",
+        text: "Divyanshi Chaudhary is an aspiring chef currently pursuing Culinary Arts at Pankaj Bhadouria Culinary Academy, Lucknow. With skills in Indian cuisine, culinary techniques, cutting, costing and creative presentation, she is steadily building a strong foundation in professional cooking. Her participation in India Ka Home Chef 2.0 and Everest Better Kitchen Culinary Challenge reflects her enthusiasm for learning. She now brings that passion and competitive spirit to the AgroPure Culinary League.",
+      },
+      participant2: {
+        name: "Shipra Chaudhary",
+        img: "/pp/Shipra Chaudhary.jpg",
+        text: "Shipra Chaudhary brings discipline, care and a learning mindset shaped by her academic background in nursing. Alongside her professional education, she has developed a love for cooking and enjoys expressing creativity through food. Fluent in Hindi and English, Shipra approaches every task with sincerity, patience and attention to detail. At the AgroPure Culinary League, she looks forward to testing her abilities, gaining experience and sharing her passion for homemade flavours.",
+      },
+    },
   ];
 
 const ParticipantInfo = ({ participant }: { participant: Participant }) => {
