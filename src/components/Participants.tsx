@@ -108,7 +108,7 @@ const teams: Team[] = [
       },
       participant2: {
         name: "Shipra Chaudhary",
-        img: "/pp/Shipra Chaudhary.jpg",
+        img: "/pp/Shipra Chaudhary.png",
         text: "Shipra Chaudhary brings discipline, care and a learning mindset shaped by her academic background in nursing. Alongside her professional education, she has developed a love for cooking and enjoys expressing creativity through food. Fluent in Hindi and English, Shipra approaches every task with sincerity, patience and attention to detail. At the AgroPure Culinary League, she looks forward to testing her abilities, gaining experience and sharing her passion for homemade flavours.",
       },
     },
