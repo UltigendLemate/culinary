@@ -124,14 +124,16 @@ const Organizers = () => {
         </Dialog>
       </div>
       <div className="text-center text-primary text-xl uppercase font-bold mt-4">
-        Telecast Partner
+        Media Partner
       </div>
       <div className="flex justify-center">
-        <img
-          src="/ptc-punjabi.png"
-          alt="PTC Punjabi"
-          className="bg-white object-contain h-16 md:h-20 w-auto p-2"
-        />
+        <a href="https://www.ptcpunjabi.co.in/" target="_blank" rel="noopener noreferrer">
+          <img
+            src="/ptc-punjabi.png"
+            alt="PTC Punjabi"
+            className="bg-white object-contain h-16 md:h-20 w-auto p-2"
+          />
+        </a>
       </div>
     </div>
   );
