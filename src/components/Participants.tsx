@@ -112,6 +112,19 @@ const teams: Team[] = [
         text: "Shipra Chaudhary brings discipline, care and a learning mindset shaped by her academic background in nursing. Alongside her professional education, she has developed a love for cooking and enjoys expressing creativity through food. Fluent in Hindi and English, Shipra approaches every task with sincerity, patience and attention to detail. At the AgroPure Culinary League, she looks forward to testing her abilities, gaining experience and sharing her passion for homemade flavours.",
       },
     },
+    {
+      id: 8,
+      participant1: {
+        name: "Adv. Ankush Sharma",
+        img: "/pp/Ankush Sharma.jpg",
+        text: "Adv. Ankush Sharma is a Legal Consultant with a leading multinational corporation, combining legal expertise with a strong passion for culinary arts. Recognized as an emerging culinary talent from Punjab, he won the McCain Star Chef title on NDTV, ranked among the Top 3 finalists of Punjab De Super Chef on PTC Punjabi, and secured First Position in the Dainik Bhaskar Culinary Championship judged by Chef Sanjeev Kapoor.",
+      },
+      participant2: {
+        name: "Shally Sabharwal",
+        img: "/pp/Shally Sabharwal.jpg",
+        text: "Shally Sabharwal is a Delhi-based professional baker, cake artist and culinary innovator specializing in designer cakes, artisanal chocolates and creative desserts. Recognized for award-winning cake artistry and judging prestigious baking competitions, she won 1st Position Gold at Aahar Pragati Maidan and Master Cake Artist Season 2. She was also Grand Winner of Chef Ranveer Brar's contest in Delhi-NCR.",
+      },
+    },
   ];
 
 const ParticipantInfo = ({ participant }: { participant: Participant }) => {
